@@ -1,0 +1,9 @@
+@mixin color($c,$b) {
+  background-color: $c;
+  border: $b solid red;
+}
+@function double($n){
+  @return ($n * 2) + px;
+}
+
+
